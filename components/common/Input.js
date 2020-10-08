@@ -9,10 +9,8 @@ type Props = {
 const styles = ReactNative.StyleSheet.create({
     input: {
         fontFamily: 'Nunito-Regular',
-        paddingHorizontal: 12,
         fontSize: 14,
-        borderRadius: 4,
-        borderWidth: 1,
+        borderBottomWidth: 1,
         borderColor: '#e6e6e7',
         color: '#353a3f'
     }
