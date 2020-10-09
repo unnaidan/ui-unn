@@ -12,7 +12,7 @@ type Props = {
 
 const styles = StyleSheet.create({
     icon: {
-        color: '#353a3f'
+        color: '#353A3F'
     }
 })
 

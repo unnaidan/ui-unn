@@ -3,7 +3,6 @@ import * as React from 'react'
 import * as ReactNative from 'react-native'
 import * as VectorIcons from '@expo/vector-icons'
 import Text from './Text'
-import theme from './../../contants/theme'
 
 const { AntDesign } = VectorIcons
 const {
@@ -12,6 +11,7 @@ const {
 } = ReactNative
 
 type Props = {
+    children: string,
     icon: string
 }
 
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(15, 76, 129, 0.08)'
     },
     alertContent: {
-        color: theme.primary.main
+        color: '#0F4C81'
     },
     icon: {
         marginRight: 16

@@ -56,10 +56,10 @@ const categories = ReactNative.StyleSheet.create({
 
 const statuses = ReactNative.StyleSheet.create({
     default: {
-        color: '#353a3f'
+        color: '#353A3F'
     },
     hint: {
-        color: '#9a9d9f'
+        color: '#9A9D9F'
     }
 })
 

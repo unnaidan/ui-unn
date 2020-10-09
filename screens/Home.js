@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-    Alert,
     SafeAreaView,
     ScrollView,
     StyleSheet,
@@ -9,10 +8,8 @@ import {
 import {
     Alert as AlertComponent,
     Avatar,
-    Button,
     Container,
     Divider,
-    IconButton,
     Input,
     SimpleHeader,
     Text
@@ -186,163 +183,6 @@ const Home = props => {
                             style={styles.item}
                             placeholder="Large"
                             size="large"
-                        />
-                        <Text
-                            category="s1"
-                            style={styles.title}
-                        >
-                            Button
-                        </Text>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Size
-                        </Text>
-                        <Button
-                            size="small"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Small Button')}
-                        >
-                            Button
-                        </Button>
-                        <Button
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                        >
-                            Button
-                        </Button>
-                        <Button
-                            size="large"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Large Button')}
-                        >
-                            Button
-                        </Button>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Appearance
-                        </Text>
-                        <Button
-                            appearance="filled"
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                        >
-                            Button
-                        </Button>
-                        <Button
-                            appearance="outline"
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                        >
-                            Button
-                        </Button>
-                        <Button
-                            appearance="ghost"
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                        >
-                            Button
-                        </Button>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Disabled
-                        </Text>
-                        <Button
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                            disabled
-                        >
-                            Button
-                        </Button>
-                        <Text
-                            category="s1"
-                            style={styles.title}
-                        >
-                            Icon Button
-                        </Text>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Size
-                        </Text>
-                        <View style={styles.horizontals}>
-                            <IconButton
-                                icon="close"
-                                size="small"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Small Button')}
-                            />
-                            <IconButton
-                                icon="close"
-                                size="medium"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Medium Button')}
-                            />
-                            <IconButton
-                                icon="close"
-                                size="large"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Large Button')}
-                            />
-                        </View>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Appearance
-                        </Text>
-                        <View style={styles.horizontals}>
-                            <IconButton
-                                appearance="filled"
-                                icon="close"
-                                size="medium"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Medium Button')}
-                            />
-                            <IconButton
-                                appearance="outline"
-                                icon="close"
-                                size="medium"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Medium Button')}
-                            />
-                            <IconButton
-                                appearance="ghost"
-                                icon="close"
-                                size="medium"
-                                style={styles.horizontal}
-                                onPress={() => Alert.alert('Medium Button')}
-                            />
-                        </View>
-                        <Text
-                            category="s2"
-                            status="hint"
-                            style={styles.subtitle}
-                        >
-                            Disabled
-                        </Text>
-                        <IconButton
-                            icon="close"
-                            size="medium"
-                            style={styles.item}
-                            onPress={() => Alert.alert('Medium Button')}
-                            disabled
                         />
                     </Container >
                 </SafeAreaView >

@@ -11,8 +11,8 @@ const styles = ReactNative.StyleSheet.create({
         fontFamily: 'Nunito-Regular',
         fontSize: 14,
         borderBottomWidth: 1,
-        borderColor: '#e6e6e7',
-        color: '#353a3f'
+        borderColor: '#E6E6E7',
+        color: '#353A3F'
     }
 })
 
@@ -40,7 +40,7 @@ const StyledTextInput = (props: Props) => {
     return (
         <ReactNative.TextInput
             {...other}
-            placeholderTextColor="#9a9d9f"
+            placeholderTextColor="#9A9D9F"
             style={[
                 style,
                 propStyle

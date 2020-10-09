@@ -5,7 +5,7 @@ import * as ReactNative from 'react-native'
 const styles = ReactNative.StyleSheet.create({
     divider: {
         borderBottomWidth: ReactNative.StyleSheet.hairlineWidth,
-        borderColor: '#e6e6e7'
+        borderColor: '#E6E6E7'
     }
 })
 
